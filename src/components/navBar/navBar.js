@@ -18,7 +18,6 @@ const Header = styled.header`
     background-color:  #FEFCFB;
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
     top: 0;
 
     @media screen and (max-width: 1000px) {
