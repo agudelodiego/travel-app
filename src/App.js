@@ -4,6 +4,7 @@ import {Normalize} from "styled-normalize";
 
 //----------PRUEBAS DE COMPONENTES-----------
 import NavigationBar from "./components/navBar/navBar.js";
+import HomePage from "./pages/Home/home";
 //-------------------------------------------
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Normalize />
       <NavigationBar />
+      <HomePage />
     </div>
   );
 }

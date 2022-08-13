@@ -39,6 +39,7 @@ const Nav = styled.nav`
     background-color: inherit;
     display: flex;
     justify-content: space-evenly;
+    z-index: 30;
 
     /* Responsive */
     @media screen and (max-width: 1000px) {
