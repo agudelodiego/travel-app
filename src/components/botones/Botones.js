@@ -16,6 +16,7 @@ const Boton = styled.button`
     cursor: pointer;
     font-weight: 400;
     z-index: 20;
+    color: #FFFFFF;
 
     &.blanco{
         background-color: #FFFFFF;

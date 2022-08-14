@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 import GetStated from "../../components/getStarted/getStarted";
+import YouNeed from "../../components/YouNeed/YouNeed";
 
 
 
@@ -24,6 +25,7 @@ const HomePage = ()=>{
     return(
         <Main>
             <GetStated />
+            <YouNeed />
         </Main>
     );
 }

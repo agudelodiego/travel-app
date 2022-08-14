@@ -19,6 +19,7 @@ const Header = styled.header`
     display: flex;
     justify-content: space-evenly;
     top: 0;
+    z-index: 100;
 
     @media screen and (max-width: 1000px) {
         justify-content: center;

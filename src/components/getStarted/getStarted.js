@@ -3,6 +3,10 @@ import styled from "styled-components";
 import turista from "../../assets/turista.png";
 import Boton from "../botones/Botones.js";
 import aviones from "../../assets/aviones.png";
+import Contenido from "../contenido/Contenido.js";
+import desplegable from "../../assets/desplegable.png";
+import Section from "../Secciones/Seccion.js";
+import Texto from "../Textos/Textos.js";
 
 
 
@@ -20,25 +24,6 @@ const TextoContainer = styled.div`
         flex-direction: column;
         align-items: center;
     }    
-`;
-// Texto
-const Texto = styled.p`
-    font-size: 1rem;
-    overflow: visible;
-    color: #666666;
-    margin: 0 0 70px 0;
-
-    &.grande{
-        font-size: 3rem;
-        font-family: 'Volkhov', serif;
-        color: #222222;
-        margin: 0 0 40px 0;
-    }
-    &.naranja{
-        color: #FA7436;
-        display: inline;
-        font-family: 'Volkhov', serif;
-    }
 `;
 //*----------------------------------------------------------------
 
@@ -94,16 +79,49 @@ const Imagen = styled.img`
 
 
 
+
 //*----------------------------------------------------------------
-// Contenedor de la seccion
-const Section = styled.section`
-    width: 100%;
-    height: 90vh;
+// Contenedor para el recuador de explore
+const ExploreContainer = styled.div`
+    width: 44rem;
+    height: auto;
+    background-color: #FFFFFF;
+    margin-top: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #FEFCFB;
+    padding: 30px 20px;
+    
+    @media screen and (max-width: 700px){
+        flex-direction: column;
+        width: 90%;
+    }
+`;
+// Contenedor para el desplegable
+const DesplegableContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #666666;
+    font-size: 0.8rem;
+    padding: 20px 0;
+`;
+// Elementos desplegables
+const Desplegable = styled.div`
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #222222;
+    font-size: 1rem;
+    font-weight: 400;
+    /* padding: 12px 0; */
+`;
+// Icono desplegable
+const DesplegableIcon = styled.img`
+    width: 0.7rem;
+    height: auto;
+    margin-left: 10px;
 `;
 //*----------------------------------------------------------------
 
@@ -113,22 +131,48 @@ const Section = styled.section`
 // Funcion encargada de renderizar la seccion
 const GetStated = ()=>{
     return (
-        <Section>
-            <TextoContainer>
-                <Texto className="grande">
-                    Get started your exciting <Texto className="naranja grande">journey</Texto> width us
-                </Texto>
-                <Texto>
-                    A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.
-                </Texto>
-                <Boton className="blanco">Discover now</Boton>
-            </TextoContainer>
-            <CirculoNaranja>
-                <Cuadrado>
-                    <Aviones src={aviones} alt="Icono de aviones en pleno vuelo"/>
-                </Cuadrado>
-                <Imagen src={turista} alt="Imagen de un turista" />
-            </CirculoNaranja>
+        <Section bgColor="#FEFCFB">
+            <Contenido>
+                <TextoContainer>
+                    <Texto className="grande">
+                        Get started your exciting <Texto className="naranja grande">journey</Texto> width us
+                    </Texto>
+                    <Texto>
+                        A Team of experienced tourism professionals will provide you with the best advice and tips for your desire place.
+                    </Texto>
+                    <Boton className="blanco">Discover now</Boton>
+                </TextoContainer>
+                <CirculoNaranja>
+                    <Cuadrado>
+                        <Aviones src={aviones} alt="Icono de aviones en pleno vuelo"/>
+                    </Cuadrado>
+                    <Imagen src={turista} alt="Imagen de un turista" />
+                </CirculoNaranja>
+            </Contenido>
+            <ExploreContainer>
+                <DesplegableContainer>
+                    <Desplegable>
+                        Location
+                        <DesplegableIcon src={desplegable} alt="Icono desplegable" />
+                    </Desplegable>
+                    Where are you going
+                </DesplegableContainer>
+                <DesplegableContainer>
+                    <Desplegable>
+                        Date
+                        <DesplegableIcon src={desplegable} alt="Icono desplegable" />
+                    </Desplegable>
+                    When you will go
+                </DesplegableContainer>
+                <DesplegableContainer>
+                    <Desplegable>
+                        Guest
+                        <DesplegableIcon src={desplegable} alt="Icono desplegable" />
+                    </Desplegable>
+                    Number of guest
+                </DesplegableContainer>
+                <Boton>Explore now</Boton>
+            </ExploreContainer>
         </Section>
     );
 }
