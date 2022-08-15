@@ -14,6 +14,11 @@ const ContenedorTx = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: ${props => props.align};
+    position: relative;
+
+    @media screen and (max-width: 600px){
+        width: 80%;
+    }
 `;
 export default ContenedorTx;
 //*----------------------------------------------------------------------------

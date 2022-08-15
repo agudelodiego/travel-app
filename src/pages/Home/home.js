@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components"
 import Deals from "../../components/dealsDiscounts/DealsDiscounts";
 import GetStated from "../../components/getStarted/getStarted";
+import PeopleSay from "../../components/PeopleSay/PeopleSay";
 import VacationPlan from "../../components/vacationPlan/VacationPlan";
 import YouNeed from "../../components/YouNeed/YouNeed";
 
@@ -30,6 +31,7 @@ const HomePage = ()=>{
             <YouNeed />
             <Deals />
             <VacationPlan />
+            <PeopleSay />
         </Main>
     );
 }

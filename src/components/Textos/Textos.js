@@ -46,6 +46,9 @@ export const P = styled.p`
     font-size: ${props => props.fontSize};
     color: ${props => props.color};
     font-weight: ${props => props.fontWeight};
-    text-decoration: ${props => props.textDecoration||"none"};
+    text-decoration: ${props => props.textDecoration||"none"}
+    display ${props => props.display || "block"};
+    margin: ${props => props.margin || 0};
+    text-align: ${props => props.textAlign};
 `;
 //*----------------------------------------------------------------
