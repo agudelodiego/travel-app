@@ -7,7 +7,6 @@ import {BotonSlide,ConedorFlexible,Img} from "./SliderDeals.js";
 
 
 //Importamos las imagenes que iran dentro de los sliders
-import rome from "../../assets/rome.png";
 import star from "../../assets/star.png";
 import trip from "../../assets/trip.png";
 import osaka from "../../assets/osaka.png";
