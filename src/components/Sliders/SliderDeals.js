@@ -18,7 +18,7 @@ import flecha from "../../assets/flecha.png";
 
 //*--------------------------------------------------------------------------
 // Imagen de las imagenes
-const Img = styled.img`
+export const Img = styled.img`
     height: 1rem;
     width: auto;
     margin-right: 5px;
@@ -35,7 +35,7 @@ const Img = styled.img`
 
 //*--------------------------------------------------------------------------
 // Puntuacion del destino
-const ConedorFlexible = styled.div`
+export const ConedorFlexible = styled.div`
     width: auto;
     height: auto;
     display: flex;
@@ -62,7 +62,7 @@ const Precio = styled.p`
 
 //*--------------------------------------------------------------------------
 // Botones que actualizaran el estado del eslider
-const BotonSlide = styled.button`
+export const BotonSlide = styled.button`
     border: 2px solid rgba(153, 153, 153, 0.5);
     height: 2.5rem;
     width: 2.5rem;
