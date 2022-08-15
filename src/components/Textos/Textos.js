@@ -35,3 +35,17 @@ const Texto = styled.p`
 `;
 export default Texto;
 //*----------------------------------------------------------------
+
+
+
+
+//*----------------------------------------------------------------
+// Textos customs
+export const P = styled.p`
+    font-family: ${props => props.fontFamily};
+    font-size: ${props => props.fontSize};
+    color: ${props => props.color};
+    font-weight: ${props => props.fontWeight};
+    text-decoration: ${props => props.textDecoration||"none"};
+`;
+//*----------------------------------------------------------------

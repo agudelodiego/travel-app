@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components"
+import Deals from "../../components/dealsDiscounts/DealsDiscounts";
 import GetStated from "../../components/getStarted/getStarted";
 import YouNeed from "../../components/YouNeed/YouNeed";
 
@@ -26,6 +27,7 @@ const HomePage = ()=>{
         <Main>
             <GetStated />
             <YouNeed />
+            <Deals />
         </Main>
     );
 }
