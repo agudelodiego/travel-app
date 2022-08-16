@@ -3,16 +3,11 @@ import styled from "styled-components";
 import {SliderContenedor,SliderContent,SliderCards,SliderImg,Descripcion,DescripcionRow} from "./SliderComponents.js";
 import {P} from "../Textos/Textos.js";
 import { useMediaQuery } from "react-responsive";
-import {BotonSlide,ConedorFlexible,Img} from "./SliderDeals.js";
+import {BotonSlide,Img} from "./SliderDeals.js";
 
 
 
 //Importamos las imagenes que iran dentro de los sliders
-import star from "../../assets/star.png";
-import trip from "../../assets/trip.png";
-import osaka from "../../assets/osaka.png";
-import paris from "../../assets/paris.png";
-import london from "../../assets/london.png";
 import flecha from "../../assets/flecha.png";
 import amazing from "../../assets/amazing.png";
 import travelFar from "../../assets/travelFar.png";
