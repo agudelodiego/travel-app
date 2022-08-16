@@ -4,6 +4,7 @@ import Deals from "../../components/dealsDiscounts/DealsDiscounts";
 import GetStated from "../../components/getStarted/getStarted";
 import GetUpdate from "../../components/getUpdate/GetUpdate";
 import PeopleSay from "../../components/PeopleSay/PeopleSay";
+import Subscribe from "../../components/Subscribe/Subscribe";
 import VacationPlan from "../../components/vacationPlan/VacationPlan";
 import YouNeed from "../../components/YouNeed/YouNeed";
 
@@ -34,6 +35,7 @@ const HomePage = ()=>{
             <VacationPlan />
             <PeopleSay />
             <GetUpdate />
+            <Subscribe />
         </Main>
     );
 }
