@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 import Deals from "../../components/dealsDiscounts/DealsDiscounts";
+import Footer from "../../components/footer/Footer";
 import GetStated from "../../components/getStarted/getStarted";
 import GetUpdate from "../../components/getUpdate/GetUpdate";
 import PeopleSay from "../../components/PeopleSay/PeopleSay";
@@ -36,6 +37,7 @@ const HomePage = ()=>{
             <PeopleSay />
             <GetUpdate />
             <Subscribe />
+            <Footer />
         </Main>
     );
 }
