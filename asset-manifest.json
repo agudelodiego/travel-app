@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/travel-app/static/css/main.e6ce0e57.css",
+    "main.js": "/travel-app/static/js/main.080789c4.js",
+    "static/media/turista.png": "/travel-app/static/media/turista.60d32bedcbb0540a6a55.png",
+    "static/media/amazing.png": "/travel-app/static/media/amazing.dfd865aef395cf9a8917.png",
+    "static/media/timeHang.png": "/travel-app/static/media/timeHang.96d69aef6025ef467e3c.png",
+    "static/media/paris.png": "/travel-app/static/media/paris.bbc13bb7e1b4f43efe58.png",
+    "static/media/london.png": "/travel-app/static/media/london.d646ac0f493c139a6509.png",
+    "static/media/africa.png": "/travel-app/static/media/africa.4b5edc8792364888530f.png",
+    "static/media/osaka.png": "/travel-app/static/media/osaka.fc838ebea9181ce03e44.png",
+    "static/media/travelFar.png": "/travel-app/static/media/travelFar.e7e06f9d44476ef803bd.png",
+    "static/media/madrid.png": "/travel-app/static/media/madrid.e41ae9aa073b5ece0a76.png",
+    "static/media/firenze.png": "/travel-app/static/media/firenze.4cec468d323c15fb1b00.png",
+    "static/media/circulos.png": "/travel-app/static/media/circulos.ea43fa2781bb3d635d73.png",
+    "static/media/testimonio.png": "/travel-app/static/media/testimonio.1dc47874e00a41d73741.png",
+    "index.html": "/travel-app/index.html",
+    "main.e6ce0e57.css.map": "/travel-app/static/css/main.e6ce0e57.css.map",
+    "main.080789c4.js.map": "/travel-app/static/js/main.080789c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6ce0e57.css",
+    "static/js/main.080789c4.js"
+  ]
+}
