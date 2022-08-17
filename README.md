@@ -3,6 +3,9 @@ Este proyecto corresponde a una landing page de una agencia de viajes(es un proy
 Fue desarrollado con react js y algunas librerias de javascript orientadas al front.
 
 
+## Visualizar proyecto
+Este proyecto cuenta con un despligue en la plataforma git hub pages. Si desea visualizar el proyecto, lo puede encontrar en: https://agudelodiego.github.io/travel-app/
+
 ## Descarga node js
 Antes de poder clonar el repositorio es necesario que tengas instalado node js en tu maquina, ya que es con lo que se manejaran las depencias del proyecto, en caso de no tenerlo, ve a su pagina web y descarga el instalador correspondiente a tu sistema operativo -> https://nodejs.org/es/download/
 
