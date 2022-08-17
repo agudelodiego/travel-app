@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import styled from "styled-components";
 import {P} from "../Textos/Textos.js"; 
 import logo from "../../assets/Logo.png";
@@ -137,14 +137,6 @@ const TwBtn = styled(Twitter)`
 //*-------------------------------------------------------------------------------------------
 // Funcion encargada de renderizar el footer
 const Footer = ()=>{
-
-    // Estados de los hover de los elementos
-    const [fb,setFb] = useState(false);
-    const[ig,setIg] = useState(false);
-    const [tw,setTw] = useState(false);
-
-
-
     return(
         <AppFooter>
             <FooterContent width="100%" padding="50px 0">
